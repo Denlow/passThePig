@@ -1,0 +1,100 @@
+.jumbotron h1 {
+  font-size: 450%;
+  font-family: 'Permanent Marker', cursive;
+  color: gold;
+  text-align: center;
+  display: inline-block;
+}
+
+.jumbotron {
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.4);
+}
+
+h2 {
+  font-size: 250%;
+  font-family: 'Permanent Marker', cursive;
+  color: gold;
+  display: inline;
+  line-height: 320%;
+}
+
+h3 {
+  font-size: 350%;
+  font-family: 'Permanent Marker', cursive;
+  color: gold;
+}
+
+#current-roll img {
+  width: 35%;
+  margin-top: 3%;
+}
+
+#round-total {
+  font-size: 900%;
+}
+
+#player1 {
+  font-size: 400%;
+}
+
+#player2 {
+  font-size: 400%;
+}
+
+#roundTotal-display {
+  text-align: center;
+}
+
+#currentRoll-display {
+  text-align: center;
+}
+
+#left {
+  width: 25%;
+  margin: 0%;
+  padding: 0%;
+  display: inline-block;
+}
+
+#right {
+  width: 25%;
+  margin: 0%;
+  padding: 0%;
+  display: inline-block;
+}
+body {
+  background-color: #511268;
+  color: lightgray;
+}
+
+button {
+  width: 49%;
+}
+
+#win {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: gold;
+  font-size: 400%;
+  display: none;
+}
+
+.well {
+  background-color: rgba(255,255,255,0.4);
+}
+
+#player2-turn {
+  display: none;
+  width: 10%;
+}
+
+#player1-turn {
+  display: inline-block;
+  width: 10%;
+}
+
+.player-turn {
+  display: inline-block;
+  width: 10%;
+}

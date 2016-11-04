@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <img src="img/pigleft.jpg" alt="piggies!" id="left" />
+        <h1>Pig Dice Game</h1>
+        <img src="img/pigRight.jpg" alt="piggies!" id="right"/>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Player 1</h2>
+          <img src="img/running.gif" alt="running pig" id="player1-turn" />
+          <div class="well well-lg" id="player1">
+            0
+          </div>
+          <button class="btn btn-info btn-lg" id="player1-roll">Roll</button>
+          <button class="btn btn-danger btn-lg" id="player1-stop">Take Points</button>
+        </div>
+        <div class="col-md-6">
+          <h2>Player 2</h2>
+          <img src="img/running.gif" alt="running pig" id="player2-turn" />
+          <div class="well well-lg" id="player2">
+            0
+          </div>
+          <button class="btn btn-info btn-lg" id="player2-roll" disabled>Roll</button>
+          <button class="btn btn-danger btn-lg" id="player2-stop" disabled>Take Points</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" id="roundTotal-display">
+          <h3>Round Total</h3>
+          <div id="round-total">
+          </div>
+      </div>
+        <div class="col-md-6" id="currentRoll-display">
+          <h3>Current Roll</h3>
+          <div id="current-roll">
+          </div>
+        </div>
+      </div>
+      <div id="win">
+        <h1 id="winner"></h1>
+        <button class="btn btn-info btn-lg" id="play-again">Play Again</button>
+      </div>
+    </div>
+  </body>
+</html>
